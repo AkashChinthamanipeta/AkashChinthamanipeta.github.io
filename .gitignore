@@ -1,0 +1,45 @@
+# Environment / secrets
+.env
+.env.*
+*.pem
+*.key
+secrets.*
+.htpasswd
+
+# OS cruft
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+Thumbs.db
+ehthumbs.db
+desktop.ini
+
+# Editor / IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Backups & temp
+*.bak
+*.old
+*.orig
+*.tmp
+*copy.html
+*-old.html
+site-old/
+backup/
+
+# Build / deps (in case you add tooling later)
+node_modules/
+dist/
+.cache/
+
+# Deploy configs that can carry credentials
+.netlify/
+.vercel/
+.firebaserc
+ftp-config.json
